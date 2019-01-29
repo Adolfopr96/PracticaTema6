@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PracticaTema6</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="desc_img1_main">Imagen 1</string>
+    <string name="desc_img2_main">Imagen 2</string>
+    <string name="menu_item1_main">Personas</string>
+    <string name="menu_item2_main">Bloc de notas</string>
+    <string name="lbl_main_personas">Personas</string>
+</resources>
+
