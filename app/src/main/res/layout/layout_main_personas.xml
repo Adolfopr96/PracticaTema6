@@ -16,7 +16,7 @@
             android:layout_height="170dp"
             android:layout_weight="1"
             android:contentDescription="@string/img_contactos_mainPersonas"
-            app:srcCompat="@drawable/img_contactos" />
+            app:srcCompat="@drawable/contacto1" />
 
         <ImageView
             android:id="@+id/imageView2_personas"
@@ -24,7 +24,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:contentDescription="@string/img_contactos_mainPersonas"
-            app:srcCompat="@drawable/img_contactos" />
+            app:srcCompat="@drawable/contacto22" />
     </LinearLayout>
 
     <LinearLayout
@@ -38,7 +38,7 @@
             android:layout_height="170dp"
             android:layout_weight="1"
             android:contentDescription="@string/img_contactos_mainPersonas"
-            app:srcCompat="@drawable/img_contactos" />
+            app:srcCompat="@drawable/contacto3" />
 
         <ImageView
             android:id="@+id/imageView4_personas"
@@ -46,7 +46,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:contentDescription="@string/img_contactos_mainPersonas"
-            app:srcCompat="@drawable/img_contactos" />
+            app:srcCompat="@drawable/contacto4" />
     </LinearLayout>
 
     <LinearLayout
@@ -60,7 +60,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:contentDescription="@string/img_contactos_mainPersonas"
-            app:srcCompat="@drawable/img_contactos" />
+            app:srcCompat="@drawable/contacto5" />
 
         <ImageView
             android:id="@+id/imageView6_personas"
@@ -68,6 +68,6 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:contentDescription="@string/img_contactos_mainPersonas"
-            app:srcCompat="@drawable/img_contactos" />
+            app:srcCompat="@drawable/contacto6" />
     </LinearLayout>
 </LinearLayout>

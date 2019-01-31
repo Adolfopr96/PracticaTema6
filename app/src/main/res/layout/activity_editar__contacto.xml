@@ -22,7 +22,7 @@
             android:layout_height="match_parent"
             android:layout_alignParentTop="true"
             android:contentDescription="TODO"
-            app:srcCompat="@drawable/contacto" />
+            app:srcCompat="@drawable/contacto11" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -62,7 +62,7 @@
                 android:layout_height="123dp"
                 android:layout_alignParentTop="true"
                 android:contentDescription="TODO"
-                app:srcCompat="@drawable/contacto" />
+                app:srcCompat="@drawable/contacto2" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -73,6 +73,7 @@
                     android:id="@+id/et2_llamar_editar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/et_margin_top"
                     android:layout_weight="1"
                     android:ems="10"
                     android:hint="@string/hint_et_telefono_personas"
@@ -101,7 +102,7 @@
                 android:layout_height="123dp"
                 android:layout_alignParentTop="true"
                 android:contentDescription="TODO"
-                app:srcCompat="@drawable/contacto" />
+                app:srcCompat="@drawable/contacto33" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -112,6 +113,7 @@
                     android:id="@+id/et3_llamar_editar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/et_margin_top"
                     android:layout_weight="1"
                     android:ems="10"
                     android:hint="@string/hint_et_telefono_personas"
@@ -140,7 +142,7 @@
                 android:layout_height="123dp"
                 android:layout_alignParentTop="true"
                 android:contentDescription="TODO"
-                app:srcCompat="@drawable/contacto" />
+                app:srcCompat="@drawable/contacto44" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -151,6 +153,7 @@
                     android:id="@+id/et4_llamar_editar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/et_margin_top"
                     android:layout_weight="1"
                     android:ems="10"
                     android:hint="@string/hint_et_telefono_personas"
@@ -179,7 +182,7 @@
                 android:layout_height="123dp"
                 android:layout_alignParentTop="true"
                 android:contentDescription="TODO"
-                app:srcCompat="@drawable/contacto" />
+                app:srcCompat="@drawable/contacto55" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -190,10 +193,12 @@
                     android:id="@+id/et5_llamar_editar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/et_margin_top"
                     android:layout_weight="1"
                     android:ems="10"
                     android:hint="@string/hint_et_telefono_personas"
-                    android:inputType="textPersonName" />
+                    android:inputType="textPersonName"
+                    android:importantForAutofill="no" />
 
                 <EditText
                     android:id="@+id/et5_correo_editar"
@@ -218,7 +223,7 @@
                 android:layout_height="123dp"
                 android:layout_alignParentTop="true"
                 android:contentDescription="TODO"
-                app:srcCompat="@drawable/contacto" />
+                app:srcCompat="@drawable/contacto66" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -229,6 +234,7 @@
                     android:id="@+id/et6_llamar_editar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/et_margin_top"
                     android:layout_weight="1"
                     android:ems="10"
                     android:hint="@string/hint_et_telefono_personas"
