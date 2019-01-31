@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fg2_main">
+    tools:context=".MainBloc">
 
-    <!-- TODO: Update blank fragment layout -->
-
-    <ImageView
-        android:id="@+id/img2_main"
+    <EditText
+        android:id="@+id/et_bloc"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:contentDescription="@string/desc_img2_main"
-        android:src="@drawable/img2" />
-</FrameLayout>
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+</LinearLayout>

@@ -7,6 +7,13 @@
     <string name="desc_img2_main">Imagen 2</string>
     <string name="menu_item1_main">Personas</string>
     <string name="menu_item2_main">Bloc de notas</string>
+    <string name="menu_item1_personas">Llamar</string>
+    <string name="menu_item2_personas">Correo</string>
+    <string name="menu_item3_personas">Editar</string>
     <string name="lbl_main_personas">Personas</string>
+    <string name="img_contactos_mainPersonas">Imagen de un emoticono con símbolo de contacto</string>
+    <string name="hint_et_telefono_personas">Introduzca el número de teléfono</string>
+    <string name="hint_et_correo_personas">Introduzca el correo electrónico</string>
+    <string name="btn_guardar_personas">Guardar</string>
 </resources>
 

@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         img1 = findViewById(R.id.img1_main);
         img2 = findViewById(R.id.img2_main);
         i1 = new Intent(this, MainPersonas.class);
-        //i2 = new Intent(this, MainBloc.class);
+        i2 = new Intent(this, MainBloc.class);
 
         img1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         img2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                startActivity(i2);
             }
         });
     }
