@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainBloc extends AppCompatActivity {
     EditText et_bloc;
@@ -29,6 +30,7 @@ public class MainBloc extends AppCompatActivity {
         SharedPreferences.Editor editor = sp.edit();
         editor.putString("et_bloc_texto", et_bloc.getText().toString());
         editor.commit();
+        Toast.makeText(this, getResources().getString(R.string.toast_guardar), Toast.LENGTH_LONG).show();
         return false;
     }
     @SuppressLint("RestrictedApi")

@@ -20,11 +20,11 @@
         </activity>
         <activity
             android:name=".MainPersonas"
-            android:label="@string/lbl_main_personas" />
+            android:label="@string/lbl_mainPersonas" />
         <activity
             android:name=".Editar_Contacto"
-            android:label="@string/lbl_main_personas" />
-        <activity android:name=".MainBloc"></activity>
+            android:label="@string/lbl_mainEditar" />
+        <activity android:name=".MainBloc"
+                    android:label="@string/lbl_bloc"/>
     </application>
-
 </manifest>

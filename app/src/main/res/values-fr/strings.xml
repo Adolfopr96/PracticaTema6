@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PracticaTema6</string>
+    <string name="desc_img1_main">Image 1</string>
+    <string name="desc_img2_main">Image 2</string>
+    <string name="menu_item1_main">Les gens</string>
+    <string name="menu_item2_main">Bloc notes</string>
+    <string name="menu_item1_personas">Appel</string>
+    <string name="menu_item2_personas">Email</string>
+    <string name="menu_item3_personas">Éditer</string>
+    <string name="lbl_main_personas">Person</string>
+    <string name="img_contactos_mainPersonas">Image d\'un émoticône avec symbole de contact</string>
+    <string name="hint_et_telefono_personas">Entrez le numéro de téléphone</string>
+    <string name="hint_et_correo_personas">Entrez le email</string>
+    <string name="btn_guardar_personas">Sauvegarder</string>
+    <string name="lbl_mainPersonas">Les contacts</string>
+    <string name="lbl_mainEditar">Éditer les contacts</string>
+    <string name="lbl_bloc">Bloc notes</string>
+    <string name="toast_editar">Les données ont été modifiées correctement</string>
+    <string name="toast_guardar">Les données ont été sauvegardées correctement</string>
+</resources>

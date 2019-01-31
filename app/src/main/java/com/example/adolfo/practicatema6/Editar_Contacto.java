@@ -9,16 +9,13 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class Editar_Contacto extends AppCompatActivity {
     SharedPreferences sp;
     SharedPreferences.Editor editor;
-    String telefono,correo;
     EditText [] et_telefono = new EditText[6];
     EditText [] et_correo = new EditText[6];
-
-    int contador=1;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +36,7 @@ public class Editar_Contacto extends AppCompatActivity {
         et_correo[5] = findViewById(R.id.et6_correo_editar);
        sp= getSharedPreferences("MisPreferencias", Context.MODE_PRIVATE);
        editor= sp.edit();
+       recoger_datos();
 
     }
     @SuppressLint("RestrictedApi")
@@ -49,38 +47,43 @@ public class Editar_Contacto extends AppCompatActivity {
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        Log.i("APP1", "AQUÍ");
-        recoger_telefonos();
-        recoger_correos();
-        return true;
+        recoger_preferencias();
+        Toast.makeText(this, getResources().getString(R.string.toast_editar), Toast.LENGTH_LONG).show();
+        return false;
     }
-    public void recoger_telefonos()
+    public void recoger_preferencias()
     {
         int contador=1;
-        String temp;
-        for (int j=0; j<=5;j++)
+        for (int j=0;j<et_correo.length;j++)
         {
-            String tipo="telefono_contacto";
-            tipo+=contador;
-            temp= et_telefono[j].getText().toString();
-            editor.putString(tipo, temp);
+            String tipo_telf = "telefono_contacto";
+            String tipo_correo = "correo_contacto";
+            tipo_telf += contador;
+            tipo_correo += contador;
+            String temp_telf = et_telefono[j].getText().toString();
+            String temp_correo = et_correo[j].getText().toString();
+            editor.putString(tipo_telf, temp_telf);
+            editor.putString(tipo_correo, temp_correo);
             editor.commit();
             contador++;
         }
-    }
-    public void recoger_correos()
-    {
-        int contador=1;
-        String temp;
-        for (int j=0; j<=5;j++)
-        {
-            String tipo="correo_contacto";
-            tipo+=contador;
-            temp= et_correo[j].getText().toString();
-            editor.putString(tipo, temp);
-            editor.commit();
-            contador++;
-        }
-    }
 
+    }
+    public void recoger_datos()
+    {
+        String telefono,correo;
+        int contador=1;
+        for (int j=0;j<et_correo.length;j++)
+        {
+            String tipo_telf = "telefono_contacto";
+            String tipo_correo = "correo_contacto";
+            tipo_telf += contador;
+            tipo_correo += contador;
+            String temp_telf=sp.getString(tipo_telf,null);
+            String temp_correo=sp.getString(tipo_correo,null);
+            et_telefono[j].setText(temp_telf);
+            et_correo[j].setText(temp_correo);
+            contador++;
+        }
+    }
 }
