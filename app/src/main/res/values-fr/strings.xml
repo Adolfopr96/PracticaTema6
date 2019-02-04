@@ -18,4 +18,6 @@
     <string name="lbl_bloc">Bloc notes</string>
     <string name="toast_editar">Les données ont été modifiées correctement</string>
     <string name="toast_guardar">Les données ont été sauvegardées correctement</string>
+    <string name="error_correo">"Erreur, aucun courrier n'est associé à ce contact. "</string>
+    <string name="error_llamar">Erreur, il n\'y a pas de numéro de téléphone associé à ce contact.</string>
 </resources>

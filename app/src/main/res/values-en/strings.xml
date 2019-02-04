@@ -18,4 +18,6 @@
     <string name="hint_et_telefono_personas">" insert the phone number"</string>
     <string name="toast_editar">The data has been modified correctly</string>
     <string name="toast_guardar">The data has been saved correctly</string>
+    <string name="error_correo">"Error, there is no mail associated with this contact "</string>
+    <string name="error_llamar">"Error, there is no phone number associated with this contact "</string>
 </resources>

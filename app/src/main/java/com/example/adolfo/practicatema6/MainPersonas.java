@@ -130,7 +130,7 @@ public class MainPersonas extends AppCompatActivity {
         telefono=sp.getString(tipo,null);
         if(telefono.isEmpty())
         {
-            Toast.makeText(this, "ERROR, No hay nº de tef asociado.", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, getResources().getString(R.string.error_llamar), Toast.LENGTH_LONG).show();
         }
         else {
             if (ContextCompat.checkSelfPermission(getApplicationContext(), CALL_PHONE) == PackageManager.PERMISSION_GRANTED) {
@@ -147,7 +147,7 @@ public class MainPersonas extends AppCompatActivity {
         correo=sp.getString(tipo, null);
         if (correo.isEmpty())
         {
-            Toast.makeText(this, "Error, no hay correo asociado", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, getResources().getString(R.string.error_correo), Toast.LENGTH_LONG).show();
         } else {
             Intent intent_correo = new Intent(Intent.ACTION_SEND);
             intent_correo.setType("text/plain");

@@ -18,5 +18,7 @@
     <string name="lbl_bloc">Bloc de notas</string>
     <string name="toast_editar">Los datos se han modificado correctamente</string>
     <string name="toast_guardar">Los datos se han guardado correctamente</string>
+    <string name="error_correo">Error, no hay un correo asociado a este contacto</string>
+    <string name="error_llamar">Error, no hay ningún número de teléfono asociado a este contacto</string>
 </resources>
 
